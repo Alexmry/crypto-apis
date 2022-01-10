@@ -1,4 +1,5 @@
 require './lib/base.rb'
+require './lib/coinbase.rb'
 
 module Api
 
@@ -6,4 +7,3 @@ end
 
 
 
-# https://api.coinbase.com/v2/prices/btc-usd/spot
