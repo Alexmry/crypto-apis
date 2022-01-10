@@ -5,7 +5,7 @@ module Api
         end
 
         def parsed_response(response)
-            response.dig('tickers').first.dig('last')
+            response.dig('tickers').first.dig('last').to_f
         end
 
         def url
